@@ -1,8 +1,8 @@
 import React from "react";
 import "./App.css";
 
-function App() {
-  return <h1> Olá Mundo!!</h1>;
-}
+import Login from "./pages/Login";
 
-export default App;
+export default function App() {
+  return <Login />;
+}
