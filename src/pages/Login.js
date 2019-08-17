@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 import React, { useState } from "react";
 import "./Login.css";
 
@@ -35,4 +36,18 @@ export default function Login({ history }) {
 
     </div>
   );
+=======
+import React from "react";
+import './Login.css';
+
+import logo from "../assets/logo.svg";
+
+export default function Login(){
+    return(
+    <img src={logo} alt="Tindev"/>
+
+
+   );
+
+>>>>>>> Stashed changes
 }
